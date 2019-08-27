@@ -1,0 +1,121 @@
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>facebok login</title>
+    <style>
+        body{
+            margin:0;
+        }
+        header{
+            background-color:#3b5998;
+            height:88px;
+        }
+        .container{
+            width: 980px;
+            height: 88px;
+            margin:0 auto;
+
+        }
+        .login{
+            float: right;
+            width: 397px;
+            height: 82px;
+        }
+        .logo{
+            float: left;
+            height:34px;
+            width: 170px;
+        }
+        .forget {
+            padding-left: 165px;
+            float: left;
+            margin-top:-10px;
+
+        }
+        .form-group label{
+            color: white;
+            font-family: Arial;
+            font-size: 12px;
+        }
+        .form-group input {
+            color: black;
+            font-family: Arial;
+            font-size: 12px;
+            width: 150px;
+            border-width: 1px;
+            height: 24px;
+            border-color: black;
+            display: block;
+            margin-top: 5px;
+
+        }
+        .forget a {
+            color: #9cb4d8;
+            text-decoration:none;
+            font-family: arial;
+            font-size: 13px;
+        }
+        .forget a :hover{
+            text-decoration: underline;
+        }
+        form{
+            margin-top: 12px;
+
+        }
+
+        button{
+            background-color: #4267b2;
+            color: white;
+            border-color: #29487d;
+            padding: 4px 8px;
+            font-size: 12px;
+            font-family: arial;
+            cursor: pointer;
+            margin-top:17px;
+        }
+        button:hover {
+            background-color: #29487d;
+        }
+        .form-group{
+            float: left;
+            width: 164px;
+
+        }
+    </style>
+
+</head>
+<body>
+<header>
+    <div class="container">
+
+        <div class="logo">
+            <img src="logo.png"alt="logo">
+        </div>
+
+        <div class="login">
+            <form>
+
+                <div class="form-group">
+                    <label for="email">Email or phone</label>
+                    <input id="email" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input id="password"type="text">
+                </div>
+
+
+                <button>Log In</button>
+            </form>
+            <div class="forget">
+                <a href="#">
+                    forgotten account?
+                </a>
+        </div>
+
+</header>
+</body>
+</html>
